@@ -12,11 +12,9 @@ void draw() {
   /* ▼ Write code BELOW this line to make stars ▼ */
     
 
-  circle(50, 200, 5);
-  circle(80, 400, 10);
-  circle(300, 230, 5);
-  circle(500, 500, 15);
-  circle(200, 700, 10);
+
+
+
 
   
   /* ▲ Write code ABOVE this line  to make stars ▲*/
@@ -31,7 +29,8 @@ void draw() {
   /* ▼ Write code BELOW this line to make the rocket move ▼ */
     
  
-  y = y - 1;
+
+
   
   /* ▲ Write code ABOVE this line to make the rocket move ▲*/
 }

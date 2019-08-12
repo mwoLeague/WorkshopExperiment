@@ -34,13 +34,9 @@ void draw() {
   /* ▼ Write code BELOW this line ▼ */
   
   
-  if (key == 'm'){
-    moveDog();
-  }
-  
-  if (key == 'z'){
-     moveCat(); 
-  }
+
+
+
 
 
   
