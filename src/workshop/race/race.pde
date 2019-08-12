@@ -5,24 +5,26 @@ SoundFile meow;
 SoundFile woof;
 PImage cat;
 PImage dog;
+PImage space;
 
-int catX = 130;
-int catY = 420;
-int dogX = 330;
-int dogY = 420;
+int catX = 00;
+int catY = 100;
+int dogX = 0;
+int dogY = 300;
 
 
 void setup() {
-  size(500, 500); 
-  textSize(30);
+  size(1198, 486); 
+  textSize(35);
   meow = new SoundFile(this, "meow.wav");
   woof = new SoundFile(this, "woof.wav");
   cat = loadImage("lion.png");
   dog = loadImage("dog.png");
+  space = loadImage("space.png");
   /* ▼ Write code BELOW this line ▼ */
 
 
- 
+
 
   
   /* ▲ Write code ABOVE this line ▲*/
@@ -30,7 +32,7 @@ void setup() {
 
 
 void draw() {
-  background(52, 235, 180);
+  background(space);
   /* ▼ Write code BELOW this line ▼ */
   
   
@@ -48,22 +50,22 @@ void draw() {
 }
 
 void moveCat(){
-  catY = catY - 10;
+  catX = catX + 10;
 }
 
 void moveDog(){
-  dogY = dogY - 10;
+  dogX = dogX + 10;
 }
 
 void checkForWinner(){
-  if (catY<0){
-    text("CATS ARE\nTHE BEST", catX, 100); 
+  if (catX>width-60){
+    text("CATS ARE THE BEST", 400, 50); 
     meow.play();
     noLoop();
   }
   
-  if (dogY<0){
-    text("DOGS \nRULE", dogX, 100); 
+  if (dogX>width-60){
+    text("DOGS RULE", 500, 50); 
     woof.play();
     noLoop();
   }
