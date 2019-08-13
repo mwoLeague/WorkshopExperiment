@@ -5,7 +5,7 @@ SoundFile meow;
 SoundFile woof;
 PImage cat;
 PImage dog;
-PImage space;
+PImage background;
 
 int catX = 00;
 int catY = 100;
@@ -14,13 +14,14 @@ int dogY = 300;
 
 
 void setup() {
-  size(1198, 486); 
+  size(1200, 500); 
   textSize(35);
   meow = new SoundFile(this, "meow.wav");
   woof = new SoundFile(this, "woof.wav");
   cat = loadImage("lion.png");
   dog = loadImage("dog.png");
-  space = loadImage("space.png");
+  background = loadImage("space.png");
+  background.resize(width, height);
   /* ▼ Write code BELOW this line ▼ */
 
 
@@ -32,7 +33,7 @@ void setup() {
 
 
 void draw() {
-  background(space);
+  background(background);
   /* ▼ Write code BELOW this line ▼ */
   
   
