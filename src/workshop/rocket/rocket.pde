@@ -1,5 +1,5 @@
-int x = 400;
-int y = 600;
+int rocketX = 400;
+int rocketY = 600;
 
 void setup() {
   background(0, 0, 40);
@@ -7,30 +7,30 @@ void setup() {
 }
 
 void draw() {
-  background(0, 0, 40);
+  background(0, 0, 0);
   fill(255, 255, 255);
-  /* ▼ Write code BELOW this line to make stars ▼ */
-    
-
+  // 1. ▼ Write code BELOW this line to make stars ▼ 
+  //    Example:
+  //     circle(50, 50, 50);
 
 
 
 
   
-  /* ▲ Write code ABOVE this line  to make stars ▲*/
+
   fill(random(255), 0, 0);
-  circle(x, y + 130, 90);
+  circle(rocketX, rocketY + 130, 90);
   fill(248, 128, 0);
-  circle(x, y + 115, 70);
+  circle(rocketX, rocketY + 115, 70);
   fill(255, 153, 0);
-  circle(x, y + 95, 35);
+  circle(rocketX, rocketY + 95, 35);
   fill(100, 100, 100);
-  triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
-  /* ▼ Write code BELOW this line to make the rocket move ▼ */
+  triangle(rocketX, rocketY + 10, rocketX + 50, rocketY + 100, rocketX - 50, rocketY + 100);
+  // 2. ▼ Write code BELOW this line to make the rocket blast off ▼ 
     
  
 
 
   
-  /* ▲ Write code ABOVE this line to make the rocket move ▲*/
+
 }

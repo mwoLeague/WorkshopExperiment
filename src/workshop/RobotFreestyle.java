@@ -9,6 +9,17 @@ public class RobotFreestyle {
 		// ▼ Write your code BELOW this line ▼
 		
 		
+		// 1. Make a new Robot().  Remember to give it a name!
+		
+		// 2. Make your robot move()
+		
+		// 3. Make your robot turn()  
+		
+		// 4. Make your robot setPenDown()
+		
+		// 5. Make your robot move() some more.  What do you see?
+		
+		// 6. Can you make your robot draw a square?  A triangle?  Something cool?
 		
 		
 		
@@ -18,7 +29,6 @@ public class RobotFreestyle {
 		
 		
 		
-	
 		
 		
 		
