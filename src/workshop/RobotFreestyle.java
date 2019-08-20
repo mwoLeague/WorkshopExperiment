@@ -15,7 +15,7 @@ public class RobotFreestyle {
 		
 		// 3. Make your robot turn()  
 		
-		// 4. Make your robot setPenDown()
+		// 4. Make your robot put its penDown()
 		
 		// 5. Make your robot move() some more.  What do you see?
 		
