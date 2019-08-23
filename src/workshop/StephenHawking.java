@@ -13,11 +13,13 @@ public class StephenHawking {
 	// 3. Use the speak() method and pass it the sentence. Then run your program.  Do you hear it?
 	
 	// 4. Change the code you wrote in step 2 to ask the user for a sentence.
+	// hint: JOptionPane.showInputDialog("Write something here!");
 
 	
 	
 	// 5. Make steps 3 and 4 repeat a BUNCH OF TIMES (hint: use a while loop)
 	
+
 	
 	
 	
